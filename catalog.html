@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Каталог</title>
+  </head>
+  <body>
+
+    <header class="page-header">
+
+        <nav class="navigation">
+          <a class="navigation__logo">
+            <img class="header-logo" alt="Логотип магазина" src="images/head_logo.png">
+          </a>
+  
+          <ul class="navigation__list">
+  
+            <form class="navigation__form" action="https://echo.htmlacademy.ru/" method="post">
+              <label for="navigation__search" class="visually-hidden">Поиск</label>
+              <input class="navigation__field" placeholder="Текст поиска" type="search" name="search" id="search"
+                required>
+              <button class="button" type="submit">Найти</button>
+            </form> 
+  
+            <li class="navigation__item">
+              <p class="navigation__people">Котейка Котейкин</p>
+              <a class="button navigation__button--entrance" href="#" >Выйти</a>
+            </li>
+  
+          </ul>
+  
+          <ul class="navigation__list">
+  
+            <li class="navigation__item">
+              <a class="navigation__link" href="#">Сравнить</a>
+            </li>
+  
+            <li class="navigation__item">
+              <a class="navigation__link" href="#">Корзина</a>
+            </li>
+  
+          </ul>
+  
+          <ul class="navigation__list">
+  
+            <li class="navigation__item">
+              <a class="navigation__link" href="#">Католог товаров</a>
+            </li>
+  
+          </ul>
+  
+          <ul class="navigation__list">
+  
+            <li class="navigation__item">
+              <a class="navigation__link" href="#">Доставка</a>
+            </li>
+  
+            <li class="navigation__item">
+              <a class="navigation__link" href="#">Гарантия</a>
+            </li>
+  
+            <li class="navigation__item">
+              <a class="navigation__link" href="#">Контакты</a>
+            </li>
+  
+          </ul>
+  
+        </nav>
+  
+      </header>
+
+      <main class="main__inner">
+          
+        <header class="inner__header">
+            <h1 class="inner__header--title">Моноподы для селфи</h1>
+            <ul class="breadcrumbs">
+                <li class="breadcrumbs__item">
+                  <a class="breadcrumbs__link" href="index.html">Главная</a>
+                </li>
+                <li class="breadcrumbs__item">
+                  <a class="breadcrumbs__link">Каталог</a>
+                </li>
+                <li class="breadcrumbs__item">
+                    <a class="breadcrumbs__link">Моноподы для селфи</a>
+                </li>
+            </ul>
+        </header>
+
+        <section class="catalog__products">
+            <h2 class="visually-hidden">Список товаров с фильтрами</h2>
+            <fieldset class="catalog__filter--group">
+                <legend class="catalog__filter--title">Стоимость</legend>
+            </fieldset>
+    
+            <fieldset class="catalog__filter--group">
+              <legend class="catalog__filter--title">Цвет</legend>
+            </fieldset>
+
+            <fieldset class="catalog__filter--group">
+                <legend class="catalog__filter--title">Bluetooth</legend>
+            </fieldset>
+
+
+            <form class="catalog__filter" action="https://echo.htmlacademy.ru/" method="get">
+               <button class="button" type="submit">Показать</button>
+            </form>
+        </section>
+        
+
+      </main>
+
+
+
+
+      <footer class="main-footer">
+
+        <a class="footer__logo">
+          <img class="footer__logo" alt="Логотип магазина" src="images/logo__footer.png">
+        </a>
+  
+        <p class="footer__adress">Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
+  
+        <a class="button" href="#">Доставка</a>
+        <a class="button" href="#">Гарантия</a>
+        <a class="button" href="#">Контакты</a>
+  
+        <section class="footer-phone">
+          <h2 class="visually-hidden">Номер телефона</h2>
+          <a class="footer-phone__link" href="tel:+78128121212">Тел.: +7 (812) 812-12-12</a>
+        </section>
+  
+        <section class="footer-social">
+          <h2 class="visually-hidden">Социальные сети</h2>
+          <ul class="footer-social__list">
+            <li class="footer-social__item">
+              <a class="footer-social__link" href="https://www.facebook.com/htmlacademy">
+                <span class="visually-hidden">facebook</span>
+              </a>
+            </li>
+            <li class="footer-social__item">
+              <a class="footer-social__link" href="https://www.instagram.com/htmlacademy/">
+                <span class="visually-hidden">instagram</span>
+              </a>
+            </li>
+            <li class="footer-social__item">
+              <a class="footer-social__link" href="https://twitter.com/htmlacademy_ru">
+                <span class="visually-hidden">Twitter</span>
+              </a>
+            </li>
+          </ul>
+        </section>
+  
+        <section class="footer-logo__academy">
+          <h2 class="visually-hidden">Ссылка на академию</h2>
+          <a class="footer-logo__link" href="https://htmlacademy.ru/">
+          </a>
+        </section>
+  
+      </footer>
+
+  </body>
+</html>

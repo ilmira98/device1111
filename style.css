@@ -1919,10 +1919,7 @@ img {
     color: rgba(68, 68, 68, 0.3);
 }
 
-.product-card--link {
-    outline: 2px solid #AF4FFF;
-    outline-offset: 2px;
-}
+
 
 .product-card--link:hover .product-card--price {
     color: rgba(68, 68, 68, 0.8);

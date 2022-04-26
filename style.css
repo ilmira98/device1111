@@ -1681,7 +1681,6 @@ img {
 .control {
     display: block;
     position: relative;
-    padding-left: 36px;
 }
 
 .control__label {

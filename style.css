@@ -1045,6 +1045,11 @@ img {
     list-style-type: none;
 }
 
+.information__item--active {
+    display: block;
+}
+
+
 .information__item {
     display: none;
     width: 810px;

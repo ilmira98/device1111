@@ -310,7 +310,16 @@ img {
     position: relative;
 }
 
+.navigation__login--item-cotolog {
+    margin: 0;
+}
+
+.navigation__login--item-cotolog:first-child {
+    margin-right: auto;
+}
+
 .navigation__login--link {
+    margin: 0;
     display: block;
     padding-left: 25px;
     color: inherit;
@@ -656,10 +665,6 @@ img {
     margin-right: 0;
 }
 
-.navigation__submenu--moving {
-    width: 50%;
-    margin-right: auto;
-}
 
 .navigation__submenu--link {
     display: inline-block;
@@ -950,7 +955,7 @@ img {
         #F0F0F0 240px,
         #F0F0F0 530px,
         #FFFFFF 530px
-      );
+    );
 }
 
 .information__container {
@@ -972,8 +977,11 @@ img {
 }
 
 .information__item {
-    width: 280px;
     margin-bottom: 35px;
+    display: none;
+    width: 694px;
+    padding: 72.5px 0;
+    padding-left: 116px;
 }
 
 .information__item:last-child {
@@ -1052,14 +1060,6 @@ img {
     display: block;
 }
 
-
-.information__item {
-    display: none;
-    width: 810px;
-    padding: 72.5px 0;
-    padding-left: 116px;
-    padding-right: 242px;
-}
 
 .information__delivery--active {
     display: block;
@@ -1597,6 +1597,10 @@ img {
     border-radius: 50%;
 }
 
+.range-toggle__decor--max {
+    margin-left: 110px;
+}
+
 .range-toggle:hover .range-toggle__decor {
     border-color: rgba(0, 0, 0, 0.5);
 }
@@ -1657,7 +1661,6 @@ img {
     font: inherit;
     font-size: 15px;
     line-height: 18px;
-    text-align: right;
     color: rgba(0, 0, 0, 0.3);
     appearance: textfield;
     border: none;
@@ -1666,6 +1669,11 @@ img {
 
 .range__wrapper--end {
     width: 60px;
+    margin-left: 91px;
+}
+
+.range__wrapper--max {
+    margin-left: 89px;
 }
 
 .range__wrapper--input::-webkit-outer-spin-button,
@@ -1779,11 +1787,12 @@ img {
 .catalog__sort {
     padding: 20px 40px;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
 }
 
 .catalog__sort--list {
-    width: 330px;
+    width: 840px;
     margin-right: 10px;
 }
 
@@ -1797,7 +1806,9 @@ img {
 .catalog__sort--cont {
     text-align: center;
     margin-right: 15px;
+    margin-left: 197px;
 }
+
 
 .select-control {
     width: 159px;

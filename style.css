@@ -547,6 +547,8 @@ img {
     list-style-type: none;
 }
 
+
+
 .navigation__catalog--item {
     margin-right: 45px;
 }
@@ -569,6 +571,18 @@ img {
     text-transform: uppercase;
     text-decoration: none;
     padding-right: 47px;
+}
+
+.navigation__catalog--link-contacts {
+    display: block;
+    font-family: "Raleway", sans-serif;
+    color: #000000;
+    line-height: 21px;
+    letter-spacing: 3.6px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-right: 0;
 }
 
 .navigation__catalog--link:hover {
@@ -595,31 +609,44 @@ img {
     opacity: 1;
 }
 
+.navigation__catalog--circle:hover,
+.navigation__catalog--circle:active {
+    opacity: 1;
+}
+
 .navigation__catalog--header:focus {
     outline-offset: 2px;
 }
 
 .navigation__catalog--header::before {
     position: absolute;
-    content: "";
-    width: 50px;
-    height: 50px;
-    top: 0;
-    right: 0;
-    background: url("./images/main/minus.svg") center center no-repeat;
+    content: url("./images/nav/plus.svg");
+    width: 16px;
+    height: 16px;
+    top: 6px;
+    left: 242px;
     opacity: 0.3;
+    display: block;
 }
 
 .navigation__catalog--header::after {
     position: absolute;
-    content: "";
-    width: 2px;
+    content: url("./images/nav/minus.svg");
+    width: 16px;
     height: 16px;
-    top: 17px;
-    right: 24px;
-    background-color: #000000;
+    top: 6px;
+    left: 242px;
     opacity: 0.3;
-} 
+    display: none;
+}
+
+.navigation__catalog--circle {
+    position: absolute; 
+    top: -11px;
+    padding-right: 273px;
+    z-index: 3;
+    opacity: 0.3;
+}
 
 .navigation__catalog--header:hover::before,
 .navigation__catalog--header:active::before {
